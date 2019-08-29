@@ -1,0 +1,19 @@
+{
+    "name": "tema/myproject",
+    "type": "project",
+    "license": "proprietary",
+	"authors": [
+		{
+			"name": "Tema Gyn",
+			"email": "fisherzir@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4":{
+			"MyProject\\": "src/MyProject/"
+		}
+	},	
+    "require": {
+        "erusev/parsedown": "^1.7"
+    }
+}
